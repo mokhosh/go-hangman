@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	loadWords()
 	word := words[rand.Intn(len(words))]
 	lives := len(word)
 
